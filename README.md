@@ -39,7 +39,7 @@ The raw retail data contained missing and invalid records. The following cleanin
 - Created a new column:  
   **Total Amount = Quantity × Unit Price**
 
-📄 File: `python/rfm_clean.py`
+📄 File: `rfm_clean.py`
 
 ---
 
@@ -51,7 +51,7 @@ After cleaning, the data was loaded into MySQL to calculate RFM metrics:
 
 The final result was stored in a table named `rfm_scores`.
 
-📄 File: `sql/rfm_queries.sql`
+📄 File: `rfm_queries.sql`
 
 ---
 
@@ -65,7 +65,7 @@ Customers were scored using a quartile-based method:
   - **Potential Loyalists**
   - **At Risk Customers**
 
-📄 File: `python/rfm_analysis.py`
+📄 File: `rfm_analysis.py`
 
 ---
 
@@ -76,7 +76,7 @@ A Power BI dashboard was created to visualize customer insights:
 - Key performance indicators (KPIs)
 - Interactive filters for analysis
 
-📄 File: `powerbi/RFM_Analysis.pbix`
+📄 File: `RFM_Analysis.pbix`
 
 >  GitHub cannot preview `.pbix` files.  
 > The file can be downloaded and opened using **Power BI Desktop**.
