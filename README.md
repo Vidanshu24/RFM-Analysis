@@ -73,7 +73,6 @@ Customers were scored using a quartile-based method:
 A Power BI dashboard was created to visualize customer insights:
 - Customer distribution by RFM segment
 - Revenue contribution by each segment
-- Key performance indicators (KPIs)
 - Interactive filters for analysis
 
 📄 File: `RFM_Analysis.pbix`
@@ -93,7 +92,7 @@ A Power BI dashboard was created to visualize customer insights:
    <img width="251" height="125" alt="image" src="https://github.com/user-attachments/assets/353cd125-def7-40b0-bb80-27846e9604db" />
 
 
-### 🔹 Key KPI Cards
+### 🔹 Key Cards
    <img width="587" height="52" alt="image" src="https://github.com/user-attachments/assets/4fece5ad-db8d-4db6-9dc0-baedeaacad36" />
 
 
